@@ -17,7 +17,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    int result = arc4random() % 55;
+    int result = arc4random() % 55+1;
     NSLog(@"%d",result);
     
     return YES;
